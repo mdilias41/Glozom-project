@@ -1,1 +1,29 @@
 // Main Sass File
+.navbar{
+  background: #4c9a7d;
+  .nav-item{padding-left:1em;
+    padding-right: 1em;
+  .nav-link{
+    text-transform: uppercase;
+
+    }
+
+  }
+  .nav-item:hover{
+    border-radius: 30px;
+    background-color: #346955;
+  transition: 0.5s}
+}
+.carousel-item{height: 450px;}
+.carousel-img-1{
+  background: url('../images/image1.jpeg');
+  background-size:cover;
+}
+.carousel-img-2{
+  background: url('../images/image2.jpeg');
+  background-size:cover;
+}
+.carousel-img-3{
+  background: url('../images/image3.jpeg');
+  background-size:cover;
+}
