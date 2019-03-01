@@ -1,0 +1,62 @@
+.navbar .navbar-brand {
+  border-radius: 30px;
+  background-color: #bd8a59;
+  padding: 10px;
+  opacity: 0.7; }
+
+.navbar .nav-item {
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+  .navbar .nav-item .nav-link {
+    text-transform: uppercase; }
+
+.navbar .nav-item:hover {
+  border-radius: 30px;
+  background-color: #bd8a59;
+  opacity: 0.7;
+  transition: 0.5s; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../images/image1.jpeg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../images/image2.jpeg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../images/image3.jpeg");
+  background-size: cover; }
+
+#section-icon .fa {
+  font-size: 50px; }
+
+#get-start {
+  position: relative;
+  background: url("../images/pc.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px;
+  background-size: cover; }
+  #get-start .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; }
+
+@media (max-width: 767px) {
+  #get-start {
+    min-height: 300px; } }
+
+@media (max-width: 480px) {
+  #get-start {
+    min-height: 345px; } }
+
+@media (max-width: 400px) {
+  #get-start {
+    min-height: 380px; } }
