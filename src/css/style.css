@@ -49,6 +49,36 @@
     left: 0;
     bottom: 0; }
 
+#crash-course {
+  position: relative;
+  background: url("../images/people.jpeg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px; }
+  #crash-course .dark-overlay2:hover {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 1s; }
+  #crash-course .col {
+    margin-top: 75px; }
+  #crash-course .fab {
+    font-size: 50px;
+    color: red;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px; }
+  #crash-course h2 {
+    margin-top: 20px; }
+
+#photo-section img {
+  min-height: 280px; }
+
 @media (max-width: 767px) {
   #get-start {
     min-height: 300px; } }
