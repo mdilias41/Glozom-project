@@ -1,7 +1,7 @@
 {
-  "name": "HEAVEN-pack",
+  "name": "Glozzom-pack",
   "version": "1.0.0",
-  "description": "HEAVEN starter workflow",
+  "description": "Glozzzom starter workflow",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
