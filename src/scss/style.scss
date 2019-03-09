@@ -1,5 +1,8 @@
 // Main Sass File
-
+@fontface{
+  font-family: mdilias;
+  src: url(../src\fonts\PlayfairDisplaySC-Bold.ttf);
+}
 $color-primary:#f5e153;
 $icon-size:50px;
 $dark-overlay:rgba(0,0,0,0.5);
@@ -88,6 +91,7 @@ bottom: 0;
   background-repeat: no-repeat;
  background-size: cover;
 
+
  background-position:center;
 
 
@@ -101,13 +105,11 @@ bottom: 0;
 
     h1{
       color: white;
-
+     font-family: mdilias;
+     font-size: 100px;
     }
   }
 }
-#service-area{
-  
-  }
 
 
 @media(max-width:767px){
