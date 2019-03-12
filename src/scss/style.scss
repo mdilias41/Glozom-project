@@ -1,16 +1,22 @@
 // Main Sass File
 @fontface{
-  font-family: mdilias;
+  font-family: mdilias41;
   src: url(../src\fonts\PlayfairDisplaySC-Bold.ttf);
 }
-$color-primary:#f5e153;
+$color-primary:#343a40;
 $icon-size:50px;
 $dark-overlay:rgba(0,0,0,0.5);
-$dark-overlay2:rgba(0,0,0,0.7);
+$dark-overlay2:rgba(0,0,0,0.6);
 .navbar{
 .navbar-brand{border-radius: 30px;
 background-color: $color-primary;
 padding: 10px;
+color: rgba(232, 234, 224, 0.73);
+}
+.navbar-brand:hover{border-radius: 30px;
+background-color: $color-primary;
+padding: 10px;
+color: white;
 }
 
   .nav-item{padding-left:0.5em;
@@ -19,13 +25,16 @@ padding: 10px;
     text-transform: uppercase;
 
     }
+    .nav-link:hover{
+      text-transform: uppercase;
+      color: white;
+      }
 
   }
   .nav-item:hover{
     border-radius: 30px;
     background-color: $color-primary;
-    opacity: 0.7;
-  transition: 0.5s}
+    transition: 0.5s;}
 }
 
 .carousel-item{height: 450px;}
@@ -97,7 +106,7 @@ bottom: 0;
 
   .dark-overlay3{
 
-    background-color: $dark-overlay2;
+    background-color: $dark-overlay;
     top: 0;
     left: 0;
     width: 100%;
@@ -110,6 +119,46 @@ bottom: 0;
     }
   }
 }
+#faq-area{
+  .myh2{width: 700px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+}
+/* services.html end here*/
+/*blog-html*/
+#bloghtml-area{ font-family: mdilias41;
+  background: url('../images/image5.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+  min-height: 350px;
+  color: #e3f3e3;
+  position: relative;
+  margin-top: 65px;
+ animation: move 50s;
+  .blog-overlay{
+    background-color: $dark-overlay2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    .blog-text{ margin-top:60px;
+
+   h1{
+         font-family: mdilias41;
+         color: #e3f3e3;
+   }
+
+   }
+
+   }
+
+
+}
+
 
 
 @media(max-width:767px){
