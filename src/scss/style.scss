@@ -8,15 +8,18 @@ $icon-size:50px;
 $dark-overlay:rgba(0,0,0,0.5);
 $dark-overlay2:rgba(0,0,0,0.6);
 .navbar{
+  box-shadow: 2px 2px 5px #3292a6;
 .navbar-brand{border-radius: 30px;
 background-color: $color-primary;
 padding: 10px;
 color: rgba(232, 234, 224, 0.73);
+  box-shadow: 2px 2px 5px #3292a6;
 }
 .navbar-brand:hover{border-radius: 30px;
 background-color: $color-primary;
 padding: 10px;
 color: white;
+transform: scale(1.1);
 }
 
   .nav-item{padding-left:0.5em;
@@ -27,13 +30,17 @@ color: white;
     }
     .nav-link:hover{
       text-transform: uppercase;
-      color: white;
+      color: black;
+      transform: scale(1.1);
+
+
       }
 
   }
   .nav-item:hover{
     border-radius: 30px;
-    background-color: $color-primary;
+
+      box-shadow: 2px 2px 5px #3292a6;
     transition: 0.5s;}
 }
 
@@ -99,8 +106,6 @@ bottom: 0;
   background: url('../images/people.jpeg');
   background-repeat: no-repeat;
  background-size: cover;
-
-
  background-position:center;
 
 
@@ -120,6 +125,7 @@ bottom: 0;
   }
 }
 #faq-area{
+
   .myh2{width: 700px;
   margin: 0 auto;
   border-radius: 30px;
@@ -138,7 +144,7 @@ bottom: 0;
   margin-top: 65px;
  animation: move 50s;
   .blog-overlay{
-    background-color: $dark-overlay2;
+    background-color: $dark-overlay;
     top: 0;
     left: 0;
     width: 100%;
@@ -163,6 +169,13 @@ bottom: 0;
 
 @media(max-width:767px){
   #get-start{min-height:300px; }
+  #faq-area{
+    .myh2{width: 350px;
+      font-size: 25px;
+    margin: 0 auto;
+    border-radius: 30px;
+  }
+  }
 }
 @media(max-width:480px){
     #get-start{min-height:345px; }
