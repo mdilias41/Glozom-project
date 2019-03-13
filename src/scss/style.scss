@@ -9,41 +9,44 @@ $dark-overlay:rgba(0,0,0,0.5);
 $dark-overlay2:rgba(0,0,0,0.6);
 .navbar{ font-family: mdilias41;
   box-shadow: 2px 2px 5px #3292a6;
-.navbar-brand{border-radius: 30px;
-background-color:#dddddd;
-padding: 10px;
+.navbar-brand{border-radius: 35px;
+background-color:#032135;
+padding: 10px 30px;
+font-size: 25px;
 
+box-shadow: 2px 2px 5px  #3292a6;
 
-  box-shadow: 2px 2px 5px  #3292a6;
 }
 .navbar-brand:hover{border-radius: 30px;
-background-color:#dddddd;
-padding: 10px;
+background-color:#032135;
 
-transform: scale(1.1);
 transition: all 1s;
 }
 
-  .nav-item{padding-left:0.5em;
-    padding-right: 0.5em;
+  .nav-item{padding-left:0.7em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-right: 0.7em;
   .nav-link{
     text-transform: uppercase;
 
     }
     .nav-link:hover{
-
-      color:#6c757d;
+     opacity: 0.8;
+      color:#ffffff;
       transform: scale(1.1);
-transition:0.5s;
+transition:0.3s;
 
       }
 
   }
   .nav-item:hover{
-    border-radius: 30px;
-transition:0.5s;
-      box-shadow: 2px 2px 5px #3292a6;
+    border-radius: 25px;
+transition:0.3s;
+opacity: 0.8;
 
+      box-shadow: 2px 2px 5px #3292a6;
+     background-color: #032135;
   }
 }
 
@@ -132,6 +135,8 @@ bottom: 0;
   .myh2{width: 700px;
   margin: 0 auto;
   border-radius: 30px;
+  cursor: pointer;
+
 }
 }
 /* services.html end here*/
@@ -161,11 +166,34 @@ bottom: 0;
          color: #e3f3e3;
    }
 
-   }
+}
+ }
+}
+/* contact us page here*/
 
-   }
+#contactus-area{
+  background-image: url('../images/image3.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 350px;
+.overlay{
+  background-color: $dark-overlay;
+  min-height: 350px;
+}
+}
 
-
+#contact-form{ font-family: mdilias41;
+  .card-body{
+    h4{}
+  }
+  .contact-address{
+    h3{margin-top: -10px;}
+    hr{
+      margin-top: -5px;
+    }
+    p{margin-top: -10px;}
+  }
 }
 
 
@@ -190,6 +218,13 @@ bottom: 0;
     margin: 0 auto;
     border-radius: 30px;
   }
+  }
+}
+/*contact us html*/
+#contact-form{
+  .card-body{
+    h4{ font-size: 25px;
+    }
   }
 }
 @media(max-width:480px){

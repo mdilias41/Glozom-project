@@ -6,29 +6,33 @@
   font-family: mdilias41;
   box-shadow: 2px 2px 5px #3292a6; }
   .navbar .navbar-brand {
-    border-radius: 30px;
-    background-color: #dddddd;
-    padding: 10px;
+    border-radius: 35px;
+    background-color: #032135;
+    padding: 10px 30px;
+    font-size: 25px;
     box-shadow: 2px 2px 5px  #3292a6; }
   .navbar .navbar-brand:hover {
     border-radius: 30px;
-    background-color: #dddddd;
-    padding: 10px;
-    transform: scale(1.1);
+    background-color: #032135;
     transition: all 1s; }
   .navbar .nav-item {
-    padding-left: 0.5em;
-    padding-right: 0.5em; }
+    padding-left: 0.7em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-right: 0.7em; }
     .navbar .nav-item .nav-link {
       text-transform: uppercase; }
     .navbar .nav-item .nav-link:hover {
-      color: #6c757d;
+      opacity: 0.8;
+      color: #ffffff;
       transform: scale(1.1);
-      transition: 0.5s; }
+      transition: 0.3s; }
   .navbar .nav-item:hover {
-    border-radius: 30px;
-    transition: 0.5s;
-    box-shadow: 2px 2px 5px #3292a6; }
+    border-radius: 25px;
+    transition: 0.3s;
+    opacity: 0.8;
+    box-shadow: 2px 2px 5px #3292a6;
+    background-color: #032135; }
 
 .carousel-item {
   height: 450px; }
@@ -115,7 +119,8 @@
 #faq-area .myh2 {
   width: 700px;
   margin: 0 auto;
-  border-radius: 30px; }
+  border-radius: 30px;
+  cursor: pointer; }
 
 /* services.html end here*/
 /*blog-html*/
@@ -144,6 +149,26 @@
         font-family: mdilias41;
         color: #e3f3e3; }
 
+/* contact us page here*/
+#contactus-area {
+  background-image: url("../images/image3.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 350px; }
+  #contactus-area .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 350px; }
+
+#contact-form {
+  font-family: mdilias41; }
+  #contact-form .contact-address h3 {
+    margin-top: -10px; }
+  #contact-form .contact-address hr {
+    margin-top: -5px; }
+  #contact-form .contact-address p {
+    margin-top: -10px; }
+
 @media (max-width: 767px) {
   .navbar .navbar-collapse {
     margin-top: 20px; }
@@ -159,6 +184,10 @@
     font-size: 25px;
     margin: 0 auto;
     border-radius: 30px; } }
+
+/*contact us html*/
+#contact-form .card-body h4 {
+  font-size: 25px; }
 
 @media (max-width: 480px) {
   #get-start {
