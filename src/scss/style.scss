@@ -7,19 +7,21 @@ $color-primary:#343a40;
 $icon-size:50px;
 $dark-overlay:rgba(0,0,0,0.5);
 $dark-overlay2:rgba(0,0,0,0.6);
-.navbar{
+.navbar{ font-family: mdilias41;
   box-shadow: 2px 2px 5px #3292a6;
 .navbar-brand{border-radius: 30px;
-background-color: $color-primary;
+background-color:#dddddd;
 padding: 10px;
-color: rgba(232, 234, 224, 0.73);
-  box-shadow: 2px 2px 5px #3292a6;
+
+
+  box-shadow: 2px 2px 5px  #3292a6;
 }
 .navbar-brand:hover{border-radius: 30px;
-background-color: $color-primary;
+background-color:#dddddd;
 padding: 10px;
-color: white;
+
 transform: scale(1.1);
+transition: all 1s;
 }
 
   .nav-item{padding-left:0.5em;
@@ -29,19 +31,20 @@ transform: scale(1.1);
 
     }
     .nav-link:hover{
-      text-transform: uppercase;
-      color: black;
-      transform: scale(1.1);
 
+      color:#6c757d;
+      transform: scale(1.1);
+transition:0.5s;
 
       }
 
   }
   .nav-item:hover{
     border-radius: 30px;
-
+transition:0.5s;
       box-shadow: 2px 2px 5px #3292a6;
-    transition: 0.5s;}
+
+  }
 }
 
 .carousel-item{height: 450px;}
@@ -168,6 +171,18 @@ bottom: 0;
 
 
 @media(max-width:767px){
+  .navbar{
+    .navbar-collapse{margin-top: 20px;}
+    .navbar-nav{
+      .nav-item{padding-left:1em;
+        padding-right: 0.5em;
+       .nav-link:hover{
+         padding-left: 30px;
+
+       }
+      }
+    }
+  }
   #get-start{min-height:300px; }
   #faq-area{
     .myh2{width: 350px;

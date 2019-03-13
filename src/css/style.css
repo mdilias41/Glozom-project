@@ -3,32 +3,32 @@
   src: url(../src\fonts\PlayfairDisplaySC-Bold.ttf); }
 
 .navbar {
+  font-family: mdilias41;
   box-shadow: 2px 2px 5px #3292a6; }
   .navbar .navbar-brand {
     border-radius: 30px;
-    background-color: #343a40;
+    background-color: #dddddd;
     padding: 10px;
-    color: rgba(232, 234, 224, 0.73);
-    box-shadow: 2px 2px 5px #3292a6; }
+    box-shadow: 2px 2px 5px  #3292a6; }
   .navbar .navbar-brand:hover {
     border-radius: 30px;
-    background-color: #343a40;
+    background-color: #dddddd;
     padding: 10px;
-    color: white;
-    transform: scale(1.1); }
+    transform: scale(1.1);
+    transition: all 1s; }
   .navbar .nav-item {
     padding-left: 0.5em;
     padding-right: 0.5em; }
     .navbar .nav-item .nav-link {
       text-transform: uppercase; }
     .navbar .nav-item .nav-link:hover {
-      text-transform: uppercase;
-      color: black;
-      transform: scale(1.1); }
+      color: #6c757d;
+      transform: scale(1.1);
+      transition: 0.5s; }
   .navbar .nav-item:hover {
     border-radius: 30px;
-    box-shadow: 2px 2px 5px #3292a6;
-    transition: 0.5s; }
+    transition: 0.5s;
+    box-shadow: 2px 2px 5px #3292a6; }
 
 .carousel-item {
   height: 450px; }
@@ -145,6 +145,13 @@
         color: #e3f3e3; }
 
 @media (max-width: 767px) {
+  .navbar .navbar-collapse {
+    margin-top: 20px; }
+  .navbar .navbar-nav .nav-item {
+    padding-left: 1em;
+    padding-right: 0.5em; }
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+      padding-left: 30px; }
   #get-start {
     min-height: 300px; }
   #faq-area .myh2 {
