@@ -10,34 +10,29 @@ $dark-overlay2:rgba(0,0,0,0.6);
 .navbar{ font-family: mdilias41;
   box-shadow: 2px 2px 5px #3292a6;
 .navbar-brand{border-radius: 35px;
-background-color:#032135;
-padding: 10px 30px;
+
+padding: 7px 30px;
 font-size: 25px;
 
-box-shadow: 2px 2px 5px  #3292a6;
+box-shadow: 2px 2px 5px  #7C7C7D;
 
 }
-.navbar-brand:hover{border-radius: 30px;
-background-color:#032135;
 
-transition: all 1s;
-}
 
   .nav-item{padding-left:0.7em;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
     padding-right: 0.7em;
   .nav-link{
     text-transform: uppercase;
 
     }
     .nav-link:hover{
-     opacity: 0.8;
-      color:#ffffff;
       transform: scale(1.1);
 transition:0.3s;
 
       }
+
 
   }
   .nav-item:hover{
@@ -45,9 +40,10 @@ transition:0.3s;
 transition:0.3s;
 opacity: 0.8;
 
-      box-shadow: 2px 2px 5px #3292a6;
-     background-color: #032135;
+      box-shadow: 2px 2px 5px #7C7C7D;
+
   }
+
 }
 
 .carousel-item{height: 450px;}
@@ -126,7 +122,7 @@ bottom: 0;
     h1{
       color: white;
      font-family: mdilias;
-     font-size: 100px;
+     font-size: 80px;
     }
   }
 }
@@ -195,8 +191,59 @@ bottom: 0;
     p{margin-top: -10px;}
   }
 }
+// about html here
+.dark-overlay4{
+  background: url('../images/image2.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  margin-top: 65px;
 
+  .dark-background{
+    margin: 0 auto;
+width: 500px;
+padding-top: 60px;
+  }
+}
+.wahat-do{
+  .container{
+    p{line-height: 28px;}
+  }
 
+  .my-img{width: 350px;
+  height: 350px;
+  }
+}
+#icon-box{
+  .card{border-radius: 10px;
+  .card-text{
+
+  }}
+  h3{
+  margin-top: 10px;
+  font-size: 35px;
+  }
+  p{
+    margin-top: 10px;
+  }
+  i{
+    font-size: 50px;
+    margin-top: 20px;
+  }
+}
+#testimonial{
+  background-color: #6c757d;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: #616c77;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
 @media(max-width:767px){
   .navbar{
@@ -211,6 +258,14 @@ bottom: 0;
       }
     }
   }
+  #dark-content{
+  .dark-overlay3{
+    h1{
+        font-size: 50px;
+      }
+    }
+  }
+
   #get-start{min-height:300px; }
   #faq-area{
     .myh2{width: 350px;
@@ -227,6 +282,8 @@ bottom: 0;
     }
   }
 }
+
+
 @media(max-width:480px){
     #get-start{min-height:345px; }
 }
